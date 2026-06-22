@@ -1,23 +1,50 @@
 # 🧠 NeuralPulse
 
-Autonomous AI Intelligence Platform
+### Autonomous AI Intelligence Platform
 
-## Features
+NeuralPulse is an AI-powered intelligence platform that automatically tracks, analyzes, and publishes the latest developments in Artificial Intelligence.
 
-- Aggregates news from TechCrunch and Google AI Blog
-- Uses Gemini AI for analysis
-- Identifies technology trends
-- Suggests skills students should learn
-- Generates project ideas
-- Publishes reports automatically to GitHub
+## 🚀 Features
 
-## Tech Stack
+* Aggregates AI news from TechCrunch and Google AI Blog
+* Uses Gemini AI for intelligent analysis and summarization
+* Identifies emerging technology trends
+* Recommends skills students should learn
+* Generates AI project ideas based on current trends
+* Automatically publishes daily intelligence reports to GitHub
 
-- n8n
-- Gemini AI
-- RSS Feeds
-- GitHub API
+## 🛠️ Tech Stack
 
-## Workflow
+* n8n
+* Gemini AI
+* RSS Feeds
+* GitHub API
+* Markdown
 
-RSS → AI Analysis → Report Generation → GitHub Publishing
+## ⚡ Workflow
+
+RSS Feeds → AI Analysis → Trend Detection → Report Generation → GitHub Publishing
+
+## 📊 Sample Insights
+
+* Trending AI technologies
+* Industry developments
+* Student learning recommendations
+* Project ideas for developers
+* Daily AI intelligence reports
+
+## 🎯 Future Roadmap
+
+* Multi-source AI news aggregation
+* Startup and funding analysis
+* AI research paper tracking
+* Personalized intelligence reports
+* Email and Telegram delivery
+
+## 📁 Reports
+
+Daily reports are automatically generated and stored in the `reports/` directory.
+
+---
+
+Built with AI, Automation, and Curiosity 🚀
