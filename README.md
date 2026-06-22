@@ -24,6 +24,13 @@ NeuralPulse is an AI-powered intelligence platform that automatically tracks, an
 ## ⚡ Workflow
 
 RSS Feeds → AI Analysis → Trend Detection → Report Generation → GitHub Publishing
+```mermaid
+graph TD
+A[RSS Feeds] --> B[Gemini AI Analysis]
+B --> C[Trend Detection]
+C --> D[Report Generation]
+D --> E[GitHub Publishing]
+```
 
 ## 📊 Sample Insights
 
