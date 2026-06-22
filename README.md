@@ -24,6 +24,7 @@ NeuralPulse is an AI-powered intelligence platform that automatically tracks, an
 ## ⚡ Workflow
 
 RSS Feeds → AI Analysis → Trend Detection → Report Generation → GitHub Publishing
+
 ```mermaid
 graph TD
 A[RSS Feeds] --> B[Gemini AI Analysis]
@@ -31,6 +32,10 @@ B --> C[Trend Detection]
 C --> D[Report Generation]
 D --> E[GitHub Publishing]
 ```
+
+## 🎯 Why I Built This
+
+As a B.Tech Computer Science student, I wanted an automated system that could filter information overload, track emerging AI trends, and generate actionable insights for students and developers without manually reading dozens of articles every day.
 
 ## 📊 Sample Insights
 
@@ -40,7 +45,20 @@ D --> E[GitHub Publishing]
 * Project ideas for developers
 * Daily AI intelligence reports
 
-## 🎯 Future Roadmap
+## 📁 Reports
+
+NeuralPulse automatically generates and publishes daily intelligence reports containing:
+
+* Top Technology Trends
+* Industry Impact Analysis
+* Skills Students Should Learn
+* Beginner-Friendly Project Ideas
+* Emerging Technologies
+* Technologies Becoming Less Relevant
+
+Reports are stored in the `reports/` directory.
+
+## 🚀 Future Roadmap
 
 * Multi-source AI news aggregation
 * Startup and funding analysis
@@ -48,9 +66,14 @@ D --> E[GitHub Publishing]
 * Personalized intelligence reports
 * Email and Telegram delivery
 
-## 📁 Reports
+## 📂 Project Structure
 
-Daily reports are automatically generated and stored in the `reports/` directory.
+```text
+neural-pulse/
+├── reports/
+├── README.md
+└── n8n Workflow
+```
 
 ---
 
