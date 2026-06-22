@@ -70,9 +70,12 @@ Reports are stored in the `reports/` directory.
 
 ```text
 neural-pulse/
+├── docs/
+│   └── workflow.png
+├── workflow/
+│   └── neural-pulse-workflow.json
 ├── reports/
-├── README.md
-└── n8n Workflow
+└── README.md
 ```
 
 ---
