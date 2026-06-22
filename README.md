@@ -33,16 +33,28 @@ C --> D[Report Generation]
 D --> E[GitHub Publishing]
 ```
 
+## 🖼️ Workflow Architecture
+
+![NeuralPulse Workflow](docs/workflow.png)
+
+## 📥 Workflow Export
+
+The complete n8n workflow is available in:
+
+`workflow/neural-pulse-workflow.json`
+
 ## 🎯 Why I Built This
 
 As a B.Tech Computer Science student, I wanted an automated system that could filter information overload, track emerging AI trends, and generate actionable insights for students and developers without manually reading dozens of articles every day.
 
 ## 📊 Sample Insights
 
+Generated reports include:
+
 * Trending AI technologies
 * Industry developments
 * Student learning recommendations
-* Project ideas for developers
+* Beginner-friendly project ideas
 * Daily AI intelligence reports
 
 ## 📁 Reports
@@ -53,7 +65,7 @@ NeuralPulse automatically generates and publishes daily intelligence reports con
 * Industry Impact Analysis
 * Skills Students Should Learn
 * Beginner-Friendly Project Ideas
-* Emerging Technologies
+* Technologies to Start Learning Now
 * Technologies Becoming Less Relevant
 
 Reports are stored in the `reports/` directory.
@@ -64,7 +76,10 @@ Reports are stored in the `reports/` directory.
 * Startup and funding analysis
 * AI research paper tracking
 * Personalized intelligence reports
-* Email and Telegram delivery
+* Email delivery
+* Telegram/Discord notifications
+* Weekly AI newsletter
+* React-based dashboard
 
 ## 📂 Project Structure
 
